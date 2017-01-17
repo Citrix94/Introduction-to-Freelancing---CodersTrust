@@ -1,0 +1,35 @@
+body{
+	background: #494E6B;
+}
+	
+.container{
+	width: 500px;
+	min-height: 500px;
+	background: #98878F;
+	border: 10px solid #985e6D;
+	overflow:auto; 
+	margin: 130px auto; 
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	transition: all 0.7s ease-in-out;
+}
+
+.container:hover{
+	transform: scale(1.2);  
+}
+
+.container > h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 70px;
+	color: white;
+}
+
+.container > p{
+	font-family: 'Signika', sans-serif;
+	font-size: 40px;
+	color: white;
+}
+
+
+
